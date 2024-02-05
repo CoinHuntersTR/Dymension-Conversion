@@ -66,6 +66,7 @@ cd pk_convert
 ```
 go build -o pk_convert ./main.go
 ```
+
 ## Her iki UBUNTU sürümü için aşağıdaki adımlar aynı;
 
 ### Privatekey'imizi Convert ediyoruz.
@@ -113,4 +114,4 @@ dymd tx bank send wallet $NEW_ADDRESS 1000000000000000000adym --keyring-backend 
 ```
 
 
-
+# NOT: Halihazırda ilk rollapp'i kurulu olan ve hala çalışanlar "Conventor Yüklüyoruz" adımından itibaren yapabilirler. Kendi Ubuntu versiyonunuza göre devam edersiniz. 
