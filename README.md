@@ -28,7 +28,7 @@ cd $HOME
 git clone https://github.com/alphab-ai/pk_convert
 ```
 
-#### Ubuntu 20 veya başka sürüm
+## Ubuntu 20 veya başka sürüm
 
 ```
 sudo apt-get update -y && sudo apt-get upgrade -y
@@ -66,6 +66,8 @@ cd pk_convert
 ```
 go build -o pk_convert ./main.go
 ```
+## Her iki UBUNTU sürümü için aşağıdaki adımlar aynı;
+
 ### Privatekey'imizi Convert ediyoruz.
 * Tırnak içine elimizde olan privekeyimizi giriyoruz.
 
@@ -87,6 +89,27 @@ dymd keys import wallet $HOME/new_pk.json --keyring-backend test
 * Dikkat aşağıdaki komutu girdiğinizde ödül gelen ve private key ile ulaşamadığınız cüzdanı size vermiş olması gerekiyor.
 ```
 dymd keys list --keyring-backend test
+```
+
+## Bu adımdan sonrası MAINNET için devam edecek.
+
+* Buradaki değeri kendi ödülünüze göre ayarlayın. Gönderim için içinde biraz gas fee bırakın.
+* Önce denemek için 1 adet yollayın her şey yolunda ise kalanı gönderirsiniz.
+* Tam sayıdan sonra 18 tane 0 var.
+```
+1 DYM = 1000000000000000000adym
+```
+*Ulaşabildiğiniz bir DYM adresi edinin ister Keplr da yeni bir adres açın yada, rollape için kullandığınız adresi verin. Size kalmış.
+*Tırnakların içine dym adresinizi ekleyin.
+```
+NEW_ADDRESS="dym1.....123acb123abc123abc123abc"
+```
+### Coin Transferi
+
+* Bu transfer 1 DYM için hazırlanmış.
+* Deneme sonrası başarılı oldu ise, kendi ödül miktarınıza göre yeniden miktarı yazın.
+```
+dymd tx bank send wallet $NEW_ADDRESS 1000000000000000000adym --keyring-backend test --node https://rpc-dymension.mzonder.com:443 --chain-id dymension_1100-1 --gas-prices 20000000000adym --gas 200000
 ```
 
 
