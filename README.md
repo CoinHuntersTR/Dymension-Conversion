@@ -100,8 +100,8 @@ dymd keys list --keyring-backend test
 ```
 1 DYM = 1000000000000000000adym
 ```
-*Ulaşabildiğiniz bir DYM adresi edinin ister Keplr da yeni bir adres açın yada, rollape için kullandığınız adresi verin. Size kalmış.
-*Tırnakların içine dym adresinizi ekleyin.
+* Ulaşabildiğiniz bir DYM adresi edinin. İster Keplrda yeni bir adres açın, yada rollape için kullandığınız adresi verin. Size kalmış.
+* Tırnakların içine dym adresinizi ekleyin.
 ```
 NEW_ADDRESS="dym1.....123acb123abc123abc123abc"
 ```
