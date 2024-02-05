@@ -1,8 +1,9 @@
-<h1 align="center"> Dymension Private Key Farklı olanlar
-  
+<h1 align="center"> Dymension Conversion
+
+# Privatekey ile ödül gelen adresine ulaşamayan ve ödülünü oradan yeni cüzdanına transfer etmek için aşağıdaki adımları yapmamız gerekiyor.
 
 
-# Eski Rollapp Kurulu olmayan ve sadece Private Key'i olanlar.
+## Eski Rollapp Kurulu olmayan ve sadece Private Key'i olanlar.
 
 ## Aşağıdaki kurulumlardan birini tercih edebilirsiniz.
 
