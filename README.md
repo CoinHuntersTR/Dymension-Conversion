@@ -115,3 +115,5 @@ dymd tx bank send wallet $NEW_ADDRESS 1000000000000000000adym --keyring-backend 
 
 
 # NOT: Halihazırda ilk rollapp'i kurulu olan ve hala çalışanlar "Conventor Yüklüyoruz" adımından itibaren yapabilirler. Kendi Ubuntu versiyonunuza göre devam edersiniz. 
+
+Dokümanın orjinaline [BURADAN](https://mzonder.notion.site/DYMENSION-Rollapp-wallet-conversion-e8919a9e70ba4379ac196e166f9bb83a) ulaşabilirsiniz. 
